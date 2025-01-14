@@ -1,22 +1,22 @@
 {
     "target": {
         "query_1": {
-            "partnumber": 17265
+            "partnumber": [17265]
         },
         "query_2": {
-            "user_id": 137495
+            "user_id": [137495]
         },
         "query_3": {
-            "average_previous_visits": 1371804.16
+            "average_previous_visits": [1371804.16]
         },
         "query_4": {
-            "device_type": 1
+            "device_type": [1]
         },
         "query_5": {
-            "user_id": 49
+            "user_id": [49]
         },
         "query_6": {
-            "unique_families": 0
+            "unique_families": [0]
         },
         "query_7":{
             "1": 24,
