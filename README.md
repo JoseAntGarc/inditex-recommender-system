@@ -10,10 +10,32 @@ Expected solution time ➡️ 8 hours. However, if you need more time, it will n
 
 ---
 
+# Table of contents
+
+1. 🌐 [Background](#background)
+
+1. 🗂️ [Dataset](#data)
+
+1. 🤖 [Model](#model)
+
+1. 📂 [Repository Structure](#structure)
+
+1. 🎯 [Tasks](#task)
+
+1. 📊 [Evaluation](#eval)
+
+1. ❓ [FAQs](#faqs)
+
+1. ✍️ [Solution](#sol)
+
 ---
+
+<div id='background' />
 
 ## 🌐 Background
 As e-commerce and digital retail continue to grow,  personalizing the shopping experience has become essential to improving customer satisfaction and increasing sales. One effective way to achieve this is through recommender systems, which help suggest products tailored to individual customer preferences. This system would analyze data such as browsing history, previous purchases, demographic details, and product attributes. Unlike many products, clothing choices are often influenced by both personal style and external trends, which can change quickly. Additionally, factors like size, color, brand loyalty, and even occasion-specific requirements can play a crucial role in a customer’s choice. A well-designed recommendation model can enhance user engagement, improve conversion rates, and build long-term customer loyalty.
+
+<div id='data' />
 
 ### 🗂️ Dataset 
 
@@ -75,9 +97,13 @@ There will be three different datasets available:
 
 Implement data processing for a recommender system to clean, filter, and normalize user and item data, removing noise and irrelevant information. Process features by transforming raw inputs—such device type, product embeddings, and purchase history—into structured formats that highlight patterns and relationships. Aggregate and scale these features to feed into machine learning models, optimizing for personalized, accurate recommendations based on individual user behaviors.
 
+<div id='model' />
+
 ### 🤖 Model
 
 Develop a recommender system capable of recommending **5 products** (`partnumber`) to a user. Take into account that the user may be logged in or not, that they may have had some previous interactions within the plaform, and any other aspect you may consider relevant.
+
+<div id='structure' />
 
 ## 📂 Repository Structure
 The repository structure is provided and must be adhered to strictly:
@@ -121,6 +147,7 @@ The repository structure is provided and must be adhered to strictly:
 
 The `/predictions` folder should contain the tasks outputs for the questions in Task 1 and the predictions for Task 3.
  
+<div id='task' />
 
 ## 🎯 Tasks
 This challenge will include three tasks: an initial exploratory task with questions and a second task for function creation to assess general query knowledge, followed by a final task focused on creating a recommender system. **The primary focus will be on the recommender task.**
@@ -188,6 +215,7 @@ For task 1 and task 3 you are allowed to use any depencency you need.
 
 Submit a `predictions_1.json` file for the queries in task 1 and a `predictions_3.json` file containing the recommendations made by your model (Task 3). Ensure the file is formatted correctly, you are provided with the example submission files in the folder `/predictions` .
 
+<div id='eval' />
 
 ## 📊 Evaluation
 - **Task 1:** The questions of this tasks will be evaluated via JSON file, comparing your answer in `predictions_1.json` against the expected value.
@@ -208,6 +236,8 @@ The grading system will be the following:
 **⚠️ Please note:**  
 All submissions might undergo a manual code review process to ensure that the work has been conducted honestly and adheres to the highest standards of academic integrity. Any form of dishonesty or misconduct will be addressed seriously, and may lead to disqualification from the challenge.
 
+<div id='faqs' />
+
 ## ❓ FAQs
 
 #### **Q1: How do I run the sample tests?**
@@ -218,3 +248,7 @@ A2: Submit your solution via Git. Once your code and predictions are ready,commi
 
 #### **Q3: I cannot see any result for my function in Task 2**
 Make sure you have written the programming language you are using in the `language.txt` file. You must write one of these three options: Python , R, Java. 
+
+<div id='sol' />
+
+## Solution
