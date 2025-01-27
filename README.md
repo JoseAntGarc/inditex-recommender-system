@@ -10,6 +10,10 @@ Expected solution time ➡️ 8 hours. However, if you need more time, it will n
 
 ---
 
+table of contents
+
+---
+
 ## 🌐 Background
 As e-commerce and digital retail continue to grow,  personalizing the shopping experience has become essential to improving customer satisfaction and increasing sales. One effective way to achieve this is through recommender systems, which help suggest products tailored to individual customer preferences. This system would analyze data such as browsing history, previous purchases, demographic details, and product attributes. Unlike many products, clothing choices are often influenced by both personal style and external trends, which can change quickly. Additionally, factors like size, color, brand loyalty, and even occasion-specific requirements can play a crucial role in a customer’s choice. A well-designed recommendation model can enhance user engagement, improve conversion rates, and build long-term customer loyalty.
 
