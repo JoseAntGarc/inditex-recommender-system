@@ -10,8 +10,6 @@ Expected solution time ➡️ 8 hours. However, if you need more time, it will n
 
 ---
 
-table of contents
-
 ---
 
 ## 🌐 Background
