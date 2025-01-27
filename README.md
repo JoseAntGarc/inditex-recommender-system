@@ -251,4 +251,4 @@ Make sure you have written the programming language you are using in the `langua
 
 <div id='sol' />
 
-## Solution
+## ✍️ Solution
